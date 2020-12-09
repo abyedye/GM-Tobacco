@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/login.css">
+       <link rel="stylesheet" href="css/check.css">
+        <!-- Required meta tags -->
+
+
+
+    <title>Checkout</title>
+    </head>
+    <body>
+             <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+         
+       
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <a class="navbar-brand" href="index.html">GM Tobacco</a>
+          </ul>
+          <span class="navbar-text">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home"></i>Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html"><i class="fa fa-google-wallet"></i>Products</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="fa fa-phone"></i>Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="checkout.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+              </li>
+                 <a class="nav-link" href="login.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+            </ul>
+          </span>
+        </div>
+      </nav>
+  <form>
+    <div class="form-container">
+      <div class="personal-information">
+        <h1>Payment Information</h1>
+      </div> <!-- end of personal-information -->
+           
+          <input id="column-left" type="text" name="first-name" placeholder="First Name"/>
+          <input id="column-right" type="text" name="last-name" placeholder="Last Name"/>
+          <input id="input-field" type="text" name="number" placeholder="Card Number"/>
+          <input id="column-left" type="text" name="expiry" placeholder="MM / YY"/>
+          <input id="column-right" type="text" name="cvc" placeholder="CCV"/>
+         
+          <div class="card-wrapper"></div>
+      
+          <input id="input-field" type="text" name="streetaddress" required="required" autocomplete="on" maxlength="45" placeholder="Streed Address"/>
+          <input id="column-left" type="text" name="city" required="required" autocomplete="on" maxlength="20" placeholder="City"/>
+          <input id="column-right" type="text" name="zipcode" required="required" autocomplete="on" pattern="[0-9]*" maxlength="5" placeholder="ZIP code"/>
+          <input id="input-field" type="email" name="email" required="required" autocomplete="on" maxlength="40" placeholder="Email"/>
+              <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+
+      </div>
+    </form>
+  <script src = "js/check.js"></script>
+        <script src = "js/store.js"></script>
+    </body>
+    
+</html>
