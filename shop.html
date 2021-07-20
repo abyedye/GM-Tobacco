@@ -18,23 +18,17 @@
 </head>
 <body>
     <div>
-      <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+     <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+         
+       
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            
-          </ul>
-             <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <a class="navbar-brand" href="index.html">GM Tobacco</a>
           </ul>
           <span class="navbar-text">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                 <a class="nav-link" href="index.html"><i class="fa fa-home"></i>Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html"><i class="fa fa-home"></i>Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="shop.html"><i class="fa fa-google-wallet"></i>Products</a>
@@ -47,6 +41,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="login.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+<!--                  <button onclick="signOut()" id="signOut"> Sign Out</button>-->
               </li>
             </ul>
           </span>
@@ -158,6 +153,75 @@
             </div>
         </div>
     </section>
+           <section class="container content-section">
+        <h2 class="section-header">Sale For Limited Time(Upto 20%)</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Rolling paper</span>
+                <img class="shop-item-image" src="assets/rolling.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$2.40</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Vape Juice</span>
+                <img class="shop-item-image" src="assets/juicev.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Cigar pouches</span>
+                <img class="shop-item-image" src="assets/cigpouch.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$15.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Cigar filter</span>
+                <img class="shop-item-image" src="assets/cigarfilter.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$1.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+                 <div class="shop-item">
+                <span class="shop-item-title">One Hitter</span>
+                <img class="shop-item-image" src="assets/hitter.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$4.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+                 <div class="shop-item">
+                <span class="shop-item-title">Concentrate Glass Pipe</span>
+                <img class="shop-item-image" src="assets/glasspipe.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$59.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+                 <div class="shop-item">
+                <span class="shop-item-title">Hookah Tobacco</span>
+                <img class="shop-item-image" src="assets/hookahflavor.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$20.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+                 <div class="shop-item">
+                <span class="shop-item-title">Scale and Grinder</span>
+                <img class="shop-item-image" src="assets/scaleandgrinder.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$20.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
       
     <section class="container content-section">
         <h2 class="section-header">CART</h2>
@@ -171,6 +235,9 @@
         <div class="cart-total">
             <strong class="cart-total-title">Total</strong>
             <span class="cart-total-price">$0</span>
+         
+                <a class="nav-link" href="checkout.html"><i class='fas fa-wallet' style='font-size:24px;color:red'></i></a>
+             
         </div>
         
     </section>
@@ -179,6 +246,8 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
    <script src="js/store.js" async></script> 
+          
+
         
 </body>
 </html>
